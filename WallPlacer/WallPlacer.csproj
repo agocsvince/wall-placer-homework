@@ -59,5 +59,10 @@
       <DependentUpon>WallPlacerForm.cs</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WallPlacerForm.resx">
+      <DependentUpon>WallPlacerForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
