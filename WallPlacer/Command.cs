@@ -10,9 +10,18 @@ namespace WallPlacer
 {
     class Command : IExternalCommand
     {
+        private UIApplication uiapp;
+        private UIDocument uidoc;
+        private Autodesk.Revit.ApplicationServices.Application app;
+        private Document doc;
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
-            throw new NotImplementedException();
+            uiapp = commandData.Application;
+            uidoc = uiapp.ActiveUIDocument;
+            app = uiapp.Application;
+            doc = uidoc.Document;
+
+            return Result.Succeeded;
         }
     }
 }
