@@ -20,7 +20,7 @@ namespace WallPlacer
         {
             RibbonPanel panel = ribbonPanel(application);
             string thisAssembly = Assembly.GetExecutingAssembly().Location;
-            PushButton pushButton = panel.AddItem(new PushButtonData("Placewall", "Place wall button", thisAssembly, "Saltmine.Command")) as PushButton;
+            PushButton pushButton = panel.AddItem(new PushButtonData("Placewall", "Place wall button", thisAssembly, "WallPlacer.Command")) as PushButton;
 
 
             return Result.Succeeded;

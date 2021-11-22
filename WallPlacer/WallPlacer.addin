@@ -3,7 +3,7 @@
 	<AddIn Type="Application">
 		<Name>WallPlacer</Name>
 		<FullClassName>WallPlacer.App</FullClassName>
-		<Assembly>C:\Users\vinceagocs\source\repos\Saltmine\Saltmine\bin\Debug\WallPlacer.dll</Assembly>
+		<Assembly>C:\Users\vinceagocs\source\repos\WallPlacer\WallPlacer\bin\Debug\WallPlacer.dll</Assembly>
 		<ClientId>a921155f-d6aa-44ce-b0dc-3fe4ebadd498</ClientId>
 		<VendorId>ADSK</VendorId>
 		<VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
